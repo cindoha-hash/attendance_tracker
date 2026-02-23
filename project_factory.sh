@@ -42,9 +42,9 @@ fi
 
 # Health Check
 if python3 --version >/dev/null 2>&1; then
-    echo "✅ Python3 is installed."
+    echo "Python3 is installed."
 else
-    echo "⚠️  Python3 is NOT installed."
+    echo "Python3 is NOT installed."
 fi
 
 echo "Project $PROJECT created successfully!"
